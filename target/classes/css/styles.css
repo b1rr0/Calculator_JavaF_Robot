@@ -1,0 +1,93 @@
+.button1:selected {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+.button1 {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #e6e6e6;
+}
+
+.button3 {
+    -fx-background-color: white;
+    -fx-border-color: #e6e6e6;
+}
+
+
+.button2 {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #e6e6e6;
+}
+
+.buttonMS {
+    -fx-background-color: #e6e6e6;
+}
+.buttonMS:pressed {
+    -fx-background-color: #bfbfbf;
+    -fx-pressed-traversable: false;
+    -fx-pressed-hover: false;
+    -fx-background-radius: 0;
+}
+.buttonMSTmp{
+    -fx-background-color: #e6e6e6;
+}
+.root {
+    -fx-background-color: red;
+         -fx-border-radius: 20;
+     -fx-background-radius: 20;
+}
+
+.button1:pressed {
+    -fx-background-color: #bfbfbf;
+    -fx-pressed-traversable: false;
+    -fx-pressed-hover: false;
+    -fx-background-radius: 0;
+}
+
+.button2:pressed {
+    -fx-background-color: #b0dcff;
+    -fx-pressed-traversable: false;
+    -fx-pressed-hover: false;
+    -fx-background-radius: 0;
+}
+
+.button3:pressed {
+    -fx-background-color: #bfbfbf;
+    -fx-pressed-traversable: false;
+    -fx-pressed-hover: false;
+    -fx-background-radius: 0;
+}
+
+.buttonMenu {
+    -fx-background-color: #e6e6e6;
+}
+
+.buttonMenu:hover {
+    -fx-background-color: #d9d9d9;
+}
+
+.buttonMenu:pressed {
+    -fx-background-color: #c0c0c0;
+}
+
+.buttonHelp {
+    -fx-background-color: #e6e6e6;
+}
+
+.buttonHelp:pressed {
+    -fx-background-color: #c0c0c0;
+}
+
+.scroll-pane{
+    -fx-background-color: transparent;
+}
+
+
+.scroll-pane .viewport {
+    -fx-background-color: #e6e6e6;
+}
+
+
+

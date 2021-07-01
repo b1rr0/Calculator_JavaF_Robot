@@ -1,0 +1,26 @@
+
+W
+java:S1854u"5Remove this useless assignment to local variable "i".(î‚¶Óøÿÿÿÿ8ÁèÛê£/
+S
+java:S1854ì"5Remove this useless assignment to local variable "i".(â²ëã8ÁèÛê£/
+Y
+java:S1854ğ"6Remove this useless assignment to local variable "i1".(¶Ö­ñüÿÿÿÿ8ÁèÛê£/
+e
+java:S1226"GIntroduce a new variable instead of reusing the parameter "bigDecimal".(÷•¯Á8ÁèÛê£/
+V
+java:S1854ç"9Remove this useless assignment to local variable "count".(ëP8ÂÜ×æœ/
+X	java:S1255"<This block of commented-out lines of code should be removed.(ÛÄÛ¥8÷° ê£/
+c
+java:S1226§"@Introduce a new variable instead of reusing the parameter "big".(‚îúÊøÿÿÿÿ8ÁèÛê£/
+a
+java:S1854ü">Remove this useless assignment to local variable "bigDecimal".(šÇ¨•ûÿÿÿÿ8ÁèÛê£/
+U
+java:S1854¬"7Remove this useless assignment to local variable "res".(åä••8ÁèÛê£/
+\
+java:S1854Ã">Remove this useless assignment to local variable "bigDecimal".(Û‚¦¿8ÁèÛê£/
+p
+java:S3776Ş"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(‹¿”8ÁèÛê£/
+j
+java:S1226‘"GIntroduce a new variable instead of reusing the parameter "bigDecimal".(ã˜øÃşÿÿÿÿ8ÁèÛê£/
+j
+java:S2259±"GA "NullPointerException" could be thrown; "bigFluous" is nullable here.(™Åöšıÿÿÿÿ8ÁèÛê£/

@@ -1,0 +1,11 @@
+
+
+java:S41655"kRemove this useless assignment; "decimalFormat" already holds the assigned value along all execution paths.(ïüÄÕıÿÿÿÿ8€À˜ñ£/
+ˆ
+java:S4165="kRemove this useless assignment; "decimalFormat" already holds the assigned value along all execution paths.(Öù¾Ï8ãû—ñ£/
+ˆ
+java:S4165;"kRemove this useless assignment; "decimalFormat" already holds the assigned value along all execution paths.(ëÍ¼ú8€À˜ñ£/
+^
+java:S1854S"ARemove this useless assignment to local variable "decimalFormat".(óØá8€À˜ñ£/
+V
+java:S1854:"9Remove this useless assignment to local variable "first".(Ş‰Îö8€À˜ñ£/

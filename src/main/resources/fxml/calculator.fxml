@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="380.0" minWidth="320.0" prefHeight="380.0" prefWidth="327.0" style="-fx-background-color: #e6e6e6; -fx-background-radius: 6; -fx-background-insets: 0, 0 1 1 0;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.eknm.controller.Controller">
+   <children>
+      <Label fx:id="labelTxt" layoutX="38.0" layoutY="5.0" prefHeight="17.0" prefWidth="215.0" text="  Обычный" AnchorPane.leftAnchor="38.0" AnchorPane.topAnchor="5.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <GridPane fx:id="gridPaneWithData" layoutX="-2.0" layoutY="33.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="200.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="98.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button fx:id="buttonCE" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonCEOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button1" text="CE" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Segoe UI" size="11.0" />
+               </font></Button>
+            <Button fx:id="buttonPercent" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonPercentOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button1" text="">
+               <font>
+                  <Font name="Calculator MDL2 Assets" size="15.0" />
+               </font></Button>
+            <Button fx:id="buttonPlusMinus" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonPlusMinusOnClick" prefHeight="30.0" prefWidth="85.0" style="-fx-border-color: #e6e6e6;" styleClass="button1" text="±" textFill="#000000bf" GridPane.rowIndex="5" />
+            <Button fx:id="buttonSeven" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonSevenOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button3" text="7" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font></Button>
+            <Button fx:id="buttonFour" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonFourOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button3" text="4" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font></Button>
+            <Button fx:id="buttonOne" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonOneOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button3" text="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font></Button>
+            <Button fx:id="buttonSqrt" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonSqrtOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button1" text="√" GridPane.columnIndex="1">
+               <font>
+                  <Font name="Segoe UI Italic" size="13.0" />
+               </font></Button>
+            <Button id="buttonC" fx:id="buttonC" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonCOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button1" text="C" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Segoe UI" size="11.0" />
+               </font></Button>
+            <Button id="buttonEight" fx:id="buttonEight" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonEightOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button3" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font></Button>
+            <Button fx:id="buttonFive" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonFiveOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button3" text="5" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font></Button>
+            <Button fx:id="buttonTwo" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonTwoOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button3" text="2" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font></Button>
+            <Button fx:id="buttonZero" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonZeroOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button3" text="0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="13.0" />
+               </font></Button>
+            <Button fx:id="buttonPowSquare" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonPowSquareOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button1" text="" GridPane.columnIndex="2">
+               <font>
+                  <Font name="Calculator MDL2 Assets" size="13.0" />
+               </font></Button>
+            <Button id="buttonDell" fx:id="buttonDell" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonDellOnCLick" prefHeight="30.0" prefWidth="85.0" styleClass="button1" text="" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Calculator MDL2 Assets" size="13.0" />
+               </font></Button>
+            <Button fx:id="buttonNine" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonNineOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button3" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font></Button>
+            <Button fx:id="buttonSix" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonSixOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button3" text="6" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font></Button>
+            <Button fx:id="buttonThree" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonThreeOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button3" text="3" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font></Button>
+            <Button fx:id="buttonDot" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonDotOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button1" text="," GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Button id="buttonOneDivisionByX" fx:id="buttonOneDivisionByX" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonOneDivisionByXOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button1" text="" GridPane.columnIndex="3">
+               <font>
+                  <Font name="Calculator MDL2 Assets" size="13.0" />
+               </font></Button>
+            <Button id="buttonDivision" fx:id="buttonDivision" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonDivisionOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button2" text="" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Calculator MDL2 Assets" size="15.0" />
+               </font></Button>
+            <Button id="buttonMultiply" fx:id="buttonMultiply" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonMultiplyOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button2" text="" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Calculator MDL2 Assets" size="13.0" />
+               </font></Button>
+            <Button id="buttonMinus" fx:id="buttonMinus" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonMinusOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button2" text="" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Calculator MDL2 Assets" size="12.0" />
+               </font></Button>
+            <Button fx:id="buttonPlus" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonPlusOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button2" text="" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Calculator MDL2 Assets" size="12.0" />
+               </font></Button>
+            <Button fx:id="buttonEqually" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="85.0" mnemonicParsing="false" onMouseClicked="#buttonEquallyOnClick" prefHeight="30.0" prefWidth="85.0" styleClass="button2" text="" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Calculator MDL2 Assets" size="13.0" />
+               </font></Button>
+         </children>
+      </GridPane>
+      <Button layoutX="292.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="38.0" styleClass="buttonHelp" text="" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="Calculator MDL2 Assets" size="12.0" />
+         </font></Button>
+      <Label fx:id="field" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="2.0" layoutY="69.0" prefHeight="30.0" prefWidth="323.0" text="0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="6.0" AnchorPane.topAnchor="69.0">
+         <font>
+            <Font name="Segoe UI" size="13.0" />
+         </font></Label>
+      <Label fx:id="fieldPrevious" alignment="CENTER_RIGHT" contentDisplay="RIGHT" graphicTextGap="5.0" layoutX="111.0" layoutY="51.0" prefHeight="17.0" prefWidth="227.0" styleClass="dataTxt" textAlignment="RIGHT" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="30.0" />
+      <GridPane fx:id="gridPaneWithM" layoutY="168.0" prefHeight="32.0" prefWidth="226.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="94.0" AnchorPane.topAnchor="168.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button fx:id="buttonMC" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#buttonMCOnClick" prefHeight="5.0" prefWidth="50.0" styleClass="buttonMS" text="MC" textFill="#b1b0b0" />
+            <Button fx:id="buttonMS" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#buttonMSOnClick" prefHeight="5.0" prefWidth="50.0" styleClass="buttonMS" text="MS" GridPane.columnIndex="4" />
+            <Button fx:id="buttonMMinus" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#buttonMMinusOnClick" prefHeight="5.0" prefWidth="50.0" styleClass="buttonMS" text="M-" GridPane.columnIndex="3" />
+            <Button id="buttonMPLUS" fx:id="buttonMPlus" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#buttonMPlusOnClick" prefHeight="5.0" prefWidth="50.0" styleClass="buttonMS" text="M+" GridPane.columnIndex="2" />
+            <Button fx:id="buttonMR" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#buttonMROnClick" prefHeight="5.0" prefWidth="50.0" styleClass="buttonMS" text="MR" GridPane.columnIndex="1" />
+         </children>
+      </GridPane>
+      <AnchorPane id="AnchorPane" fx:id="anchorPaneMenu" layoutX="-256.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="356.0" minWidth="212.0" prefHeight="380.0" prefWidth="256.0" style="-fx-background-color: #e6e6e6;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-256.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" layoutY="62.0" onScrollFinished="#onScrollFinished" onScrollStarted="#onScrollStarted" prefHeight="250.0" prefWidth="256.0" vbarPolicy="ALWAYS" AnchorPane.bottomAnchor="68.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="62.0">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="669.0" prefWidth="239.0" style="-fx-background-color: transparent;">
+                     <children>
+                        <GridPane fx:id="gridPaneMenu" alignment="TOP_CENTER" layoutY="-2.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="668.0" prefWidth="250.0" style="-fx-background-color: #e6e6e6;" vgap="30.0" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-15.0" AnchorPane.topAnchor="-2.0">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints maxHeight="31.458778381347656" minHeight="10.0" prefHeight="31.458778381347656" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="31.458778381347656" minHeight="10.0" prefHeight="31.458778381347656" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="31.458778381347656" minHeight="10.0" prefHeight="31.458778381347656" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="31.458778381347656" minHeight="10.0" prefHeight="31.458778381347656" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="31.458778381347656" minHeight="10.0" prefHeight="31.458778381347656" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="31.458778381347656" minHeight="10.0" prefHeight="31.458778381347656" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="31.458778381347656" minHeight="10.0" prefHeight="31.458778381347656" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="31.458778381347656" minHeight="10.0" prefHeight="31.458778381347656" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="31.458778381347656" minHeight="10.0" prefHeight="31.458778381347656" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="31.458778381347656" minHeight="10.0" prefHeight="31.458778381347656" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="31.458778381347656" minHeight="10.0" prefHeight="31.458778381347656" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="31.458778381347656" minHeight="10.0" prefHeight="31.458778381347656" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="31.458778381347656" minHeight="10.0" prefHeight="31.458778381347656" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="31.458778381347656" minHeight="10.0" prefHeight="31.458778381347656" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="29.270610809326172" minHeight="10.0" prefHeight="28.541221618652344" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <Label alignment="BASELINE_LEFT" minHeight="40.0" minWidth="220.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="38.0" prefWidth="219.0" style="-fx-background-color: #e6e6e6;" text="  Калькулятор" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+                                 <font>
+                                    <Font name="Segoe UI Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Button id="buttonMenu" alignment="BASELINE_LEFT" minHeight="40.0" minWidth="220.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onMouseClicked="#buttonDefOnClick" prefHeight="49.0" prefWidth="600.0" styleClass="buttonMenu" text="    Обычный" wrapText="true" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="Calculator MDL2 Assets" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button id="buttonMenu" alignment="BASELINE_LEFT" minHeight="40.0" minWidth="220.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="59.0" prefWidth="273.0" styleClass="buttonMenu" text="    Инженерный" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="Calculator MDL2 Assets" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button id="buttonMenu" alignment="BASELINE_LEFT" minHeight="40.0" minWidth="220.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="40.0" prefWidth="285.0" styleClass="buttonMenu" text="    Программист" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font name="Calculator MDL2 Assets" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Label alignment="BASELINE_LEFT" minHeight="40.0" minWidth="220.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="40.0" prefWidth="220.0" style="-fx-background-color: #e6e6e6;" text="  Преобразователь" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font name="Segoe UI Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Button id="buttonMenu" alignment="BASELINE_LEFT" minHeight="40.0" minWidth="220.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="40.0" prefWidth="300.0" styleClass="buttonMenu" text="    Обьем" GridPane.rowIndex="5">
+                                 <font>
+                                    <Font name="Calculator MDL2 Assets" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button id="buttonMenu" alignment="BASELINE_LEFT" minHeight="40.0" minWidth="220.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="40.0" prefWidth="300.0" styleClass="buttonMenu" text="    Длина" GridPane.rowIndex="6">
+                                 <font>
+                                    <Font name="Calculator MDL2 Assets" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button id="buttonMenu" alignment="BASELINE_LEFT" minHeight="40.0" minWidth="220.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="40.0" prefWidth="300.0" styleClass="buttonMenu" text="    Вес и масса" GridPane.rowIndex="7">
+                                 <font>
+                                    <Font name="Calculator MDL2 Assets" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button id="buttonMenu" alignment="BASELINE_LEFT" minHeight="40.0" minWidth="220.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="40.0" prefWidth="300.0" styleClass="buttonMenu" text="    Энергия" GridPane.rowIndex="9">
+                                 <font>
+                                    <Font name="Calculator MDL2 Assets" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button id="buttonMenu" alignment="BASELINE_LEFT" minHeight="40.0" minWidth="220.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="40.0" prefWidth="300.0" styleClass="buttonMenu" text="    Площадь" GridPane.rowIndex="10">
+                                 <font>
+                                    <Font name="Calculator MDL2 Assets" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button id="buttonMenu" alignment="BASELINE_LEFT" minHeight="40.0" minWidth="220.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="40.0" prefWidth="300.0" styleClass="buttonMenu" text="    Скорость" GridPane.rowIndex="11">
+                                 <font>
+                                    <Font name="Calculator MDL2 Assets" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button id="buttonMenu" alignment="BASELINE_LEFT" minHeight="40.0" minWidth="220.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="40.0" prefWidth="300.0" styleClass="buttonMenu" text="    Время" GridPane.rowIndex="12">
+                                 <font>
+                                    <Font name="Calculator MDL2 Assets" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button id="buttonMenu" alignment="BASELINE_LEFT" minHeight="40.0" minWidth="220.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="40.0" prefWidth="300.0" styleClass="buttonMenu" text="    Мощность" GridPane.rowIndex="13">
+                                 <font>
+                                    <Font name="Calculator MDL2 Assets" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button id="buttonMenu" alignment="BASELINE_LEFT" minHeight="40.0" minWidth="220.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="40.0" prefWidth="300.0" styleClass="buttonMenu" text="     Данные" GridPane.rowIndex="14">
+                                 <font>
+                                    <Font name="Calculator MDL2 Assets" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button id="buttonMenu" alignment="BASELINE_LEFT" minHeight="40.0" minWidth="220.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="40.0" prefWidth="300.0" styleClass="buttonMenu" text="    Давление" GridPane.rowIndex="15">
+                                 <font>
+                                    <Font name="Calculator MDL2 Assets" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button id="buttonMenu" alignment="BASELINE_LEFT" minHeight="40.0" minWidth="220.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="40.0" prefWidth="300.0" styleClass="buttonMenu" text="     Угол" GridPane.rowIndex="16">
+                                 <font>
+                                    <Font name="Calculator MDL2 Assets" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button id="buttonMenu" alignment="BASELINE_LEFT" minHeight="40.0" minWidth="220.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="40.0" prefWidth="300.0" styleClass="buttonMenu" text="    Температура" GridPane.rowIndex="8">
+                                 <font>
+                                    <Font name="Calculator MDL2 Assets" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                           <opaqueInsets>
+                              <Insets top="20.0" />
+                           </opaqueInsets>
+                        </GridPane>
+                        <AnchorPane centerShape="false" depthTest="DISABLE" layoutX="3.0" layoutY="33.0" minWidth="0.0" nodeOrientation="LEFT_TO_RIGHT" opacity="0.9" prefHeight="25.0" prefWidth="2.0" scaleShape="false" style="-fx-background-color: #004DFF;">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </AnchorPane>
+                     </children>
+                     <padding>
+                        <Insets top="3.0" />
+                     </padding>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+            <Button alignment="BASELINE_LEFT" layoutY="347.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="32.0" prefWidth="250.0" styleClass="buttonMenu" text="    О программе" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="0.0">
+               <font>
+                  <Font name="Calculator MDL2 Assets" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="anchorPaneMenuFon" onMouseClicked="#onClickAnchorPaneMenuFon" opacity="0.55" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Button fx:id="buttonMenu" layoutX="-2.0" mnemonicParsing="false" onMouseClicked="#buttonMenuOnClick" prefHeight="38.0" prefWidth="38.0" styleClass="buttonHelp" text="≡" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

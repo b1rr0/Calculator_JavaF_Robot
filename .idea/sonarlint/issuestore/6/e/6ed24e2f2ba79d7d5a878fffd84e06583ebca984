@@ -1,0 +1,13 @@
+
+n
+java:S1104"QMake scene a static final constant or non-public and provide accessors if needed.(äõ8¦Ç‘áœ/
+s
+java:S1104"VMake scaleWidth a static final constant or non-public and provide accessors if needed.(¡ææ´8¦Ç‘áœ/
+M
+java:S1444"0Make this "public static scaleWidth" field final(¡ææ´8¦Ç‘áœ/
+y
+java:S1104"WMake scaleHeight a static final constant or non-public and provide accessors if needed.(¨»®üÿÿÿÿ8¦Ç‘áœ/
+H
+java:S1444"+Make this "public static scene" field final(äõ8¦Ç‘áœ/
+S
+java:S1444"1Make this "public static scaleHeight" field final(¨»®üÿÿÿÿ8¦Ç‘áœ/
